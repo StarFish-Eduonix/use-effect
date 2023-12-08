@@ -1,12 +1,14 @@
 import React from "react";
 import Basics from "./Components/Basics";
+import LiveSearching from "./Components/LiveSearching";
 
 const App = () => {
 
 
     return (
         <div>   
-            <Basics />
+            {/* <Basics /> */}
+            <LiveSearching />
         </div>
     )
 }
